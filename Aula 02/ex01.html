@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02, ex01</title>
+</head>
+<body>
+    <script>
+    let nome;
+    let idade;
+    let altura;
+    let genero;
+    let ocupacao;
+
+    function capitalizeFirstLetter(text) {
+  return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();}
+
+    nome = prompt("Qual seu nome? ");
+    idade = prompt("Qual a sua idade? (apenas digito) ");
+    altura = prompt("Qual a sua altura? (apenas digito) ");
+    gênero = prompt("Qual o seu gênero? ");
+    ocupacao = prompt("Qual a sua ocupação? ");
+
+    document.writeln(`Bem vindo, ${capitalizeFirstLetter(nome)}.`);
+    document.write(`Você tem ${idade} anos e tem ${altura}m de altura.<br>`);
+    document.write(`Se identifica com o gênero ${gênero.toLowerCase()} e é ${ocupacao.toLowerCase()}.<br>`);
+    </script>
+    
+</body>
+</html>
