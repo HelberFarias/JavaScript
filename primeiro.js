@@ -1,2 +1,0 @@
-console.lot('Ola Mundo!');
-
